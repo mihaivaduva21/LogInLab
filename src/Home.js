@@ -18,7 +18,7 @@ class Home extends Component {
           <h1>Home</h1>
           <button onClick={() => app.auth().signOut()}>Sign Out</button>
 
-          <div className="Home">
+          <div className="centered">
             <TeamMembers db={app}/>
             <DisplayData db={app}/>
           </div>

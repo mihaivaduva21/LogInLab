@@ -23,6 +23,26 @@
   color: #61dafb;
 }
 
+.row {
+  width: 49%;
+  display: inline-block;
+  border: 1px solid black;
+  vertical-align: top;
+}
+@media screen and (min-width: 768px) {
+  .row {
+    width: 50%;
+  }
+}
+
+.centered {
+        height: 100vh; /* Magic here */
+        display: flex;
+        justify-content: center;
+       align-items: center;
+        vertical-align: middle;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

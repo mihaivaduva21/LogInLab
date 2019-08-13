@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import { withRouter } from "react-router";
 import app from "./base";
+import './App.css';
 
 const SignUp = ({ history }) => {
 
@@ -25,7 +26,7 @@ const SignUp = ({ history }) => {
 
 
    return(
-       <div>
+       <div className="centered">
            <h1>Sign Up</h1>
            <form onSubmit={handleSignUp}>
             <label>
